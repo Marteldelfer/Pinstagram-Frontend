@@ -1,11 +1,23 @@
-import { useEffect, useState } from "react"
-import FeedPost from "../components/FeedPost"
-//import { mockPostResponse } from "../utils/mockData"
-import { jwtKey } from "../utils/keys"
-import type { PostResponseType } from "../types/PostResponseType"
-import axios from "axios"
+import TabBar from "../components/TabBar"
 
 export default function Test() {
+
+  return (
+    <>
+      <div className={"bg-gray-200 h-full dark:bg-gray-950"}>
+        <TabBar></TabBar>
+      </div>
+    </>
+  )
+}
+
+/* // test feedPost component
+
+  import { useEffect, useState } from "react"
+  import FeedPost from "../components/FeedPost"
+  import { jwtKey } from "../utils/keys"
+  import type { PostResponseType } from "../types/PostResponseType"
+  import axios from "axios"
 
   const jwt = jwtKey;
   const [t, setT] = useState<PostResponseType[]>([]);
@@ -25,5 +37,4 @@ export default function Test() {
           </div>
         </div>
 		</>
-	)
-}
+	) */

@@ -1,5 +1,5 @@
 import { IoMdHome, IoMdSearch } from "react-icons/io";
-import { FaRegCompass, FaSearch, FaRegPlusSquare } from "react-icons/fa";
+import { FaRegCompass, FaRegPlusSquare } from "react-icons/fa";
 
 export default function TabBar({className = ""}: {className?: string}) {
 
